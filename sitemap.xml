@@ -18,75 +18,71 @@
     
 
     
+        
     <url>
-     <loc>/cve-2018-1000001-01/</loc>
+     <loc>/kernel/cve-2018-18281-分析/</loc>
      <lastmod>2020-04-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>/kernel/cve-2018-18281-附件/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/kernel/cve-2019-13272-分析/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/kernel/cve-2019-13272-附件/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
+        
     <url>
-     <loc>/cve-2018-1000001/</loc>
+     <loc>/userspace/cve-2018-1000001-分析/</loc>
      <lastmod>2020-04-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
-     <loc>/cve-2019-12735-01/</loc>
+     <loc>/userspace/cve-2018-1000001-附件/</loc>
      <lastmod>2020-04-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
-     <loc>/cve-2019-12735/</loc>
+     <loc>/userspace/cve-2019-12735-分析/</loc>
      <lastmod>2020-04-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
-     <loc>/lynis分析/</loc>
+     <loc>/userspace/cve-2019-12735-附件/</loc>
      <lastmod>2020-04-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
-     <loc>/vuls分析/</loc>
+     <loc>/userspace/cve-2019-5736-分析/</loc>
      <lastmod>2020-04-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
-     <loc>/wazuh分析/</loc>
+     <loc>/userspace/cve-2019-5736-附件/</loc>
      <lastmod>2020-04-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-    <url>
-     <loc>/wazuh性能分析/</loc>
-     <lastmod>2020-04-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
-     <loc>/漏洞利用知识库模版/</loc>
-     <lastmod>2020-04-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
+        
     
 
 </urlset>
