@@ -2,6 +2,5 @@ site_name: expwiki
 
 nav:
     - index: index.md
-    - acknowledgements: acknowledgements.md
 
 theme: readthedocs
