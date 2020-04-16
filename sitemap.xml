@@ -10,42 +10,6 @@
     
 
     
-    <url>
-     <loc>/acknowledgements/</loc>
-     <lastmod>2020-04-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-        
-    <url>
-     <loc>/kernel/cve-2018-18281-分析/</loc>
-     <lastmod>2020-04-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/kernel/cve-2018-18281-附件/</loc>
-     <lastmod>2020-04-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/kernel/cve-2019-13272-分析/</loc>
-     <lastmod>2020-04-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>/kernel/cve-2019-13272-附件/</loc>
-     <lastmod>2020-04-16</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
         
     <url>
      <loc>/userspace/cve-2018-1000001-分析/</loc>
@@ -83,6 +47,42 @@
      <changefreq>daily</changefreq>
     </url>
         
+    
+
+    
+        
+    <url>
+     <loc>/kernel/cve-2018-18281-分析/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/kernel/cve-2018-18281-附件/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/kernel/cve-2019-13272-分析/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/kernel/cve-2019-13272-附件/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>/acknowledgements/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
     
 
 </urlset>
