@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
+    <url>
+     <loc>/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/acknowledgements/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/cve-2018-1000001-01/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/cve-2018-1000001/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/cve-2019-12735-01/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/cve-2019-12735/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/lynis分析/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/vuls分析/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/wazuh分析/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/wazuh性能分析/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/漏洞利用知识库模版/</loc>
+     <lastmod>2020-04-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+</urlset>

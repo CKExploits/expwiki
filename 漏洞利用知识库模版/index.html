@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>漏洞利用知识库模版 - expwiki</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "\u6f0f\u6d1e\u5229\u7528\u77e5\u8bc6\u5e93\u6a21\u7248";
+    var mkdocs_page_input_path = "\u6f0f\u6d1e\u5229\u7528\u77e5\u8bc6\u5e93\u6a21\u7248.md";
+    var mkdocs_page_url = "/\u6f0f\u6d1e\u5229\u7528\u77e5\u8bc6\u5e93\u6a21\u7248/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> expwiki</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../acknowledgements/">Acknowledgements</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../cve-2018-1000001-01/">Cve 2018 1000001 01</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../cve-2018-1000001/">Cve 2018 1000001</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../cve-2019-12735-01/">Cve 2019 12735 01</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../cve-2019-12735/">Cve 2019 12735</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../lynis分析/">Lynis分析</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../vuls分析/">Vuls分析</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../wazuh分析/">Wazuh分析</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../wazuh性能分析/">Wazuh性能分析</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">漏洞利用知识库模版</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#cve-xxxx-xxxx">cve-xxxx-xxxx</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#0">0.作者</a></li>
+        
+            <li><a class="toctree-l3" href="#1">1.背景介绍</a></li>
+        
+            <li><a class="toctree-l3" href="#2">2.漏洞分析</a></li>
+        
+            <li><a class="toctree-l3" href="#3poc">3.POC</a></li>
+        
+            <li><a class="toctree-l3" href="#4exp">4.EXP</a></li>
+        
+            <li><a class="toctree-l3" href="#5">5.防护建议</a></li>
+        
+            <li><a class="toctree-l3" href="#6">6.参考</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">expwiki</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>漏洞利用知识库模版</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="cve-xxxx-xxxx">cve-xxxx-xxxx</h1>
+<h3 id="0">0.作者</h3>
+<p>（本文作者id 和谷歌邮箱）</p>
+<h3 id="1">1.背景介绍</h3>
+<ul>
+<li>什么软件的漏洞</li>
+<li>这个软件的简介</li>
+<li>漏洞能造成什么危害</li>
+<li>其他对了解漏洞有利的背景知识</li>
+</ul>
+<h3 id="2">2.漏洞分析</h3>
+<ul>
+<li>漏洞原理精准概括（一两句话说清楚漏洞成因）</li>
+<li>漏洞所属软件链接，版本，模块，目录，文件，代码行</li>
+<li>漏洞所属类型</li>
+<li>漏洞补丁</li>
+<li>漏洞CVE号(如果有)</li>
+</ul>
+<h3 id="3poc">3.POC</h3>
+<h4 id="apoc">a.POC原理</h4>
+<h4 id="bpoc">b.POC源码</h4>
+<h4 id="c">c.复现步骤</h4>
+<h3 id="4exp">4.EXP</h3>
+<h4 id="aexp">a.EXP原理</h4>
+<h4 id="bexp">b.EXP源码</h4>
+<h4 id="c_1">c.复现步骤</h4>
+<h4 id="d">d.利用核心要素</h4>
+<h3 id="5">5.防护建议</h3>
+<p>结合漏洞原理和利用原理，从防护产品研发的角度，提出：</p>
+<ul>
+<li>a. 如何检测这个/类漏洞</li>
+<li>b. 如何防御这个/类漏洞</li>
+<li>c. 有没有哪种通用的缓解措施可以阻断这个/类漏洞</li>
+</ul>
+<h3 id="6">6.参考</h3>
+<ul>
+<li>关于这个漏洞的writeup, 分析文章链接</li>
+<li>其他参考</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../wazuh性能分析/" class="btn btn-neutral" title="Wazuh性能分析"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+    
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../wazuh性能分析/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script src="../js/theme.js"></script>
+
+</body>
+</html>
